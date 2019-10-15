@@ -1,0 +1,97 @@
+#face 
+{ 
+width:500px;
+height:550px;
+border-radius:100%;
+background-color: #f9d5a7;
+ }
+
+.eye
+{
+display: inline;
+margin-left: 95px;
+margin-top: 130px;
+
+width:100px;
+height:100px;
+border-radius:50%;
+background-color: white;
+}
+
+.eye
+{
+display: inline-block;
+
+width:100px;
+height:100px;
+border-radius:50%;
+background-color: white;
+}
+
+.pupil
+{
+display: inline;
+margin: 15px;
+
+width:60px;
+height:60px;
+border-radius:50%;
+background-color: black;
+}
+
+.pupil
+{
+display: inline-block;
+
+width:60px;
+height:60px;
+border-radius:50%;
+background-color: black;
+}
+
+.pupil:hover
+{
+width: 70px;
+height: 70px;
+margin: 15px;
+
+opacity: .8;
+background-color: black;
+transition: all .5s;
+}
+
+#nose
+{
+margin-left: 205px;
+margin-bottom: 40px;
+
+width: 0;
+height: 0;
+border-left: 40px solid transparent;
+border-right: 40px solid transparent;
+border-bottom: 100px solid #e9bf8a;
+}
+
+#halfCircleBottom
+{
+margin-left: 200px;
+
+width:90px;
+height:90px;
+border-radius:50%;
+background-color: #f99c9c;
+}
+
+#halfCircleBottom:hover
+{
+margin-left: 150px;
+
+height:100px;
+width:190px;
+border-radius: 0 0 90px 90px;
+background:#f99c9c;
+
+opacity: .5;
+background-color: red;
+transition: all .5s;
+}
