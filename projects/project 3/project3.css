@@ -1,0 +1,176 @@
+*{
+	margin:0;
+}
+
+@keyframes change-bgcolor
+	{
+	0% {background-color: red;}
+	20% {background-color:purple;}
+	40% {background-color:blue;}
+	60% {background-color:green;}
+	80% {background-color:yellow;}
+	100%{background-color: orange;}
+	}
+
+#circles
+{	height:1000px;
+	overflow-x: hidden;
+}
+
+@keyframes change-bgcolor
+	{
+	0% {background-color: red;}
+	20% {background-color:purple;}
+	40% {background-color:blue;}
+	60% {background-color:green;}
+	80% {background-color:yellow;}
+	100%{background-color: orange;}
+	}
+
+	.circle1
+	{	position: relative;
+
+ 		right:-300px;
+		top:-450px;
+		width:800px;
+		height:800px;
+
+		border-radius:100%;
+		background-color: black;
+		animation: change-bgcolor 2s infinite;
+	}
+
+	.circle1:hover
+	{	position: relative;
+
+ 		right:-300px;
+		top:-450px;
+		width:800px;
+		height:800px;
+
+		border-radius:100%;
+
+		animation: change-bgcolor 2s infinite;
+	}
+
+	.circle2
+	{	position: absolute;
+
+		left:20px;
+		top:260px;
+		width:600px;
+		height:600px;
+
+		border-radius:100%;
+		background-color: black;
+		animation: change-bgcolor 2s infinite .5s;
+	}
+
+	.circle2:hover
+	{	position: absolute;
+
+		left:20px;
+		top:260px;
+		width:600px;
+		height:600px;
+
+		border-radius:100%;
+
+		animation: change-bgcolor 2s infinite;
+	}
+
+
+	.circle3
+	{	position: absolute;
+
+		left:500px;
+		top:760px;
+		width:200px;
+		height:200px;
+
+		border-radius:100%;
+		background-color: black;
+		animation: change-bgcolor 2s infinite 1s;
+	}
+
+	.circle3:hover
+	{	position: absolute;
+
+		left:500px;
+		top:760px;
+		width:200px;
+		height:200px;
+
+		border-radius:100%;
+		
+		/*animation: change-bgcolor 2s infinite;*/
+	}
+
+	.circle4
+	{	position: absolute;
+
+		left:680px;
+		top:730px;
+		width:80px;
+		height:80px;
+
+		border-radius:100%;
+		background-color: black;
+
+		animation: change-bgcolor 2s infinite 1.5s;	
+	}
+
+	.circle4:hover
+	{	position: absolute;
+
+		left:680px;
+		top:730px;
+		width:80px;
+		height:80px;
+
+		border-radius:100%;
+		
+		animation: change-bgcolor 2s infinite;
+	}
+
+
+#text
+{	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	/*width: 100px;	*/
+	padding:10px;
+}
+
+	h1
+	{	font-family: sans-serif;
+		font-size: 50px;
+		line-height: 0.5em;	
+	}
+
+	p
+	{	font-family: 'Arimo', sans-serif;
+		font-size: 1.9vw;
+		line-height: 1em;	
+	}
+
+		.text1
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 5px;	
+		}
+
+		.text2
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 5px;	
+		}
+
+		.text3
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 5px;	
+		}

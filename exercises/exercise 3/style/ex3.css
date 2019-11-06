@@ -1,0 +1,84 @@
+#bar
+{	position:fixed;
+	display:flex;
+	width: 100vw;
+	box-sizing:border-box;
+	background-color:white; }
+
+	.links
+	{	flex:3;	}
+
+	.title
+	{	flex:2;	}
+
+	.icons
+	{	flex:3;	}
+
+		.icon
+		{	width:50px;	}
+
+
+#flex_parent
+{	margin:0;
+	padding:0;
+	display:flex;
+	width: 1100px;
+	margin: 0 auto 0 auto;	}
+
+	h1
+	{	font-family: 'Playfair Display', serif;
+		font-size: ;
+		line-height: ;	}
+
+		.image
+		{	flex: 2;
+			margin-right: 20px;
+			margin-top: 20px;	}
+
+		.text
+		{	flex: 1;	}
+
+
+#parent
+{	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin: 0 auto 0 auto;
+	width: 1120px;	}
+
+	h2
+	{	font-family: 'Playfair Display', serif;
+		font-size: ;
+		line-height: ;	}
+
+	p
+	{	font-family: 'Arimo', sans-serif;
+		font-size: ;
+		line-height: ;	}
+
+	img
+	{	width:100%;	}
+
+		.child1
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;	}
+
+		.child2
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;	}
+
+		.child3
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;	}
+
+		.child4
+		{	margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;	}
