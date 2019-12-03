@@ -1,0 +1,46 @@
+h1 
+{	
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+	color:black;
+	font-size: 80px 
+}
+
+p{
+	margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:black;
+	font-size: 20px
+}
+
+body 
+{
+	background-image: url('https://media.giphy.com/media/26FPDUf5dGnsRyuRO/giphy.gif');
+    background-size: cover;
+
+	font-family: 'VT323', monospace;
+}
+
+#images
+{	
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	padding-bottom: 50px;
+}
+
+#button
+{
+	margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+	color:black;
+	font-size: 2em;
+}

@@ -1,0 +1,113 @@
+body
+	{
+		text-align:left;
+		color:white;
+		margin-left: 200px;
+		margin-top: 100px;
+
+		background-color:#cfc8b4;
+
+	}
+
+h1
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 40px;
+		padding-top:150px;
+		margin:0px;
+	}
+
+h2
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 25px;
+		padding-top:20px;
+		padding-bottom:10px;
+		margin:0px;
+	}
+
+.title
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 40px;
+		margin:0px;
+		color:white;
+	}
+
+.title:hover
+	{
+		color:yellow;
+	}
+
+.about
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 25px;
+		padding-top:20px;
+		padding-bottom:10px;
+		margin:0px;
+	}
+
+.about:hover
+	{
+		color:yellow;
+	}
+
+.exercises
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 25px;
+		padding-top:20px;
+		padding-bottom:10px;
+		margin:0px;
+	}
+
+.exercises:hover
+	{
+		color:yellow;
+	}
+
+.projects
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 25px;
+		padding-top:20px;
+		padding-bottom:10px;
+		margin:0px;
+	}
+
+.projects:hover
+	{
+		color:yellow;
+	}
+
+p
+	{
+		font-family: 'Gaegu', cursive;
+		font-size: 15px;
+		margin:0px;
+	}
+
+#exercises
+	{
+		font-size: 15px;
+		font-family: 'Gaegu', cursive;
+	}
+
+	p
+		{
+			font-size:15px;
+			font-style: white;
+
+		}
+
+#projects
+	{
+		font-size: 15px;
+		font-family: 'Gaegu', cursive;
+	}
+
+.projectitems1
+{
+	color:white;
+}
